@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="profile-card">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+
+                <!-- Front -->
+                <div class="flip-card-front">
+                    <img src="back.jpg" alt="Profile">
+                </div>
+
+                <!-- Back -->
+                <div class="flip-card-back">
+                    <img src="cj.jpg" alt="Back Image">
+                </div>
+
+            </div>
+        </div>
+
+        <h1>Christian Josh Lingad</h1>
+
+        <p class="role">Computer Science Student</p>
+
+        <p>
+            Hi! I'm learning web development.
+            I enjoy coding, Music, and creating websites.
+        </p>
+     
+
+        <button id="skillsButton" type="button" aria-expanded="false" aria-controls="skillsSection">Skills</button>
+
+        <div class="skills-section" id="skillsSection" aria-hidden="true">
+            <h3 class="skills-title">Tech Stack:</h3>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Next.js Fullstack</span>
+                <span>MongoDB</span>
+                <span>React</span>
+            </div>
+        </div>
+
+        <p class="contact-prompt">If you're interested in my work, feel free to contact me.</p>
+        <button id="contactButton" type="button" aria-expanded="false" aria-controls="contactInfo">Contact Me</button>
+
+        <div class="contact-info" id="contactInfo" aria-hidden="true">
+            <h2>Contact Information</h2>
+            <p><strong>Name:</strong> Dev CJ Lingad </p>
+            <p><strong>Email:</strong> <a href="mailto:cjlingad2@gmail.com">cjlingad2@gmail.com</a></p>
+            <p><strong>Social Media:</strong> <a href="https://www.facebook.com/Christian.lingad07/" target="_blank" rel="noopener">@Christian.lingad</a></p>
+
+            <p><strong>Contact Number:</strong> 09105421228</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
