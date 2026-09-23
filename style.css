@@ -61,6 +61,7 @@ body {
     width: 120px;
     height: 120px;
     cursor: pointer;
+    
 
     position: relative;
     perspective: 1000px;
